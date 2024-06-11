@@ -1,0 +1,3 @@
+[submodule "src/sem"]
+	path = src/sem
+	url = git@github.com:quirinpa/sem.git
