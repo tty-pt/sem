@@ -30,27 +30,27 @@ export iid
 
 options=""
 
-if test "$graph" = "on"; then
+if test "$HTTP_PARAM_graph" = "on"; then
 	graph_checked=checked
 	options=$options"g"
 fi
 
-if test "$debug" = "on"; then
+if test "$HTTP_PARAM_debug" = "on"; then
 	debug_checked=checked
 	options=$options"d"
 fi
 
-if test "$human" = "on"; then
+if test "$HTTP_PARAM_human" = "on"; then
 	human_checked=checked
 	options=$options"h"
 fi
 
-if test "$machine" = "on"; then
+if test "$HTTP_PARAM_machine" = "on"; then
 	machine_checked=checked
 	options=$options"m"
 fi
 
-if test "$present" = "on"; then
+if test "$HTTP_PARAM_present" = "on"; then
 	present_checked=checked
 	options=$options"p"
 fi
