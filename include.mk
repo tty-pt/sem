@@ -1,3 +1,3 @@
 module := sem
-exe := sem
-include module.mk
+exe := sem sem-echo
+exedir := sem

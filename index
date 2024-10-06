@@ -30,24 +30,9 @@ export iid
 
 options=""
 
-if test "$HTTP_PARAM_graph" = "on"; then
-	graph_checked=checked
-	options=$options"g"
-fi
-
 if test "$HTTP_PARAM_debug" = "on"; then
 	debug_checked=checked
 	options=$options"d"
-fi
-
-if test "$HTTP_PARAM_human" = "on"; then
-	human_checked=checked
-	options=$options"h"
-fi
-
-if test "$HTTP_PARAM_machine" = "on"; then
-	machine_checked=checked
-	options=$options"m"
 fi
 
 if test "$HTTP_PARAM_present" = "on"; then
@@ -69,23 +54,8 @@ cat <<!
 <form action="." method="GET" class="v tac">
 <div class="fw f h jcc">
 	<label class="h">
-		<input type="checkbox" name="graph" $graph_checked></input>
-		`_ Graph`
-	</label>
-
-	<label class="h">
 		<input type="checkbox" name="debug" $debug_checked></input>
 		`_ Debug`
-	</label>
-
-	<label class="h">
-		<input type="checkbox" name="human" $human_checked></input>
-		`_ Human`
-	</label>
-
-	<label class="h">
-		<input type="checkbox" name="machine" $machine_checked></input>
-		`_ Machine`
 	</label>
 
 	<label class="h">
