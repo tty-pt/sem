@@ -10,6 +10,6 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "@tty-pt/libit": "^0.0.11",
-    "@tty-pt/qhash": "^0.5.29"
+    "@tty-pt/qhash": "^0.5.31"
   }
 }
