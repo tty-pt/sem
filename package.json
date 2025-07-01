@@ -9,7 +9,7 @@
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "@tty-pt/libit": "^0.2.2",
-    "@tty-pt/qdb": "^0.0.13"
+    "@tty-pt/libit": "^0.2.3",
+    "@tty-pt/qdb": "^0.1.9"
   }
 }
